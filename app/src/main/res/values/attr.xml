@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<attr name="typeface">-->
+        <!--<enum name="normal" value="0" />-->
+        <!--<enum name="sans" value="1" />-->
+        <!--<enum name="serif" value="2" />-->
+        <!--<enum name="monospace" value="3" />-->
+    <!--</attr>-->
+    <declare-styleable name="MenuView">
+        <attr name="position">
+            <enum name="left_top" value="0"/>
+            <enum name="left_bottom" value="1"/>
+            <enum name="right_top" value="2"/>
+            <enum name="right_bottom" value="3"/>
+        </attr>
+        <attr name="radius" format="dimension"/>
+        <attr name="oritation">
+            <flag name="horizontal" value="0"/>
+            <flag name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
