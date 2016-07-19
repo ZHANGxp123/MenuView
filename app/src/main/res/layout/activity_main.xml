@@ -11,14 +11,117 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/menuView"
+        heima:position="right_top"
+        heima:radius="60dp"
+        heima:oritation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/menu"
+            android:src="@mipmap/menu"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv1"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv2"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv3"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv4"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv5"/>
+
+    </com.heim.menuview.MenuView><com.heim.menuview.MenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menuView4"
         heima:position="right_bottom"
+        heima:radius="60dp"
+        heima:oritation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/menu4"
+            android:src="@mipmap/menu"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv1"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv2"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv3"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv4"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv5"/>
+
+    </com.heim.menuview.MenuView><com.heim.menuview.MenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menuView3"
+        heima:position="left_bottom"
         heima:radius="60dp"
         heima:oritation="vertical"
         >
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:id="@+id/menu"
+            android:id="@+id/menu3"
+            android:src="@mipmap/menu"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv1"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv2"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv3"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv4"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/iv5"/>
+
+    </com.heim.menuview.MenuView>
+    <com.heim.menuview.MenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menuView1"
+        heima:position="left_top"
+        heima:radius="60dp"
+        heima:oritation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/menu2"
             android:src="@mipmap/menu"/>
         <ImageView
             android:layout_width="40dp"

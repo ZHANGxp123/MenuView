@@ -80,10 +80,10 @@ public class MenuView extends ViewGroup implements View.OnClickListener {
             switch (mOritation) {
                 case HORIZONTAL:
                     if (mPosition == Position.LEFT_TOP || mPosition == Position.LEFT_BOTTOM) {
-                        flag = 1;
+                        flag = -1;
                     }
                     if (mPosition == Position.RIGHT_TOP || mPosition == Position.RIGHT_BOTTOM) {
-                        flag = -1;
+                        flag = 1;
                     }
 
                     if (isOpen) {
@@ -306,7 +306,7 @@ public class MenuView extends ViewGroup implements View.OnClickListener {
                     }
 
                     if (mPosition == Position.RIGHT_TOP) {
-                        l = getMeasuredWidth() - mRadius * (i + 1);
+                        l = getMeasuredWidth() - mRadius * (i + 1)-childWidth;
                         t = 0;
                     }
                     if (mPosition == Position.RIGHT_BOTTOM) {
